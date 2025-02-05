@@ -1,10 +1,9 @@
 #Python Slot Machine
-
 import random
 
 
 def spin_row():
-    symbols = ['🍒','🍉','🔔','⭐','🍍','🥭']
+    symbols = ['🍒','🍉','🔔','⭐','🍍','🥭',]
 
     return [random.choice(symbols) for _ in range(3)]
 
